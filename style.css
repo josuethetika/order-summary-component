@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
 
 body{
@@ -39,8 +40,16 @@ h1{
     line-height: 25px;
     margin-top: 15px;
     font-family: 'Jost', sans-serif;
-    color: gray;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 1.1rem;
+    color: gray;
 
+}
+.little-card{
+    display: flex;
+    align-items: center;
+    background-color:  hsl(225, 100%, 98%);
+    height: 90px;
+    margin: 30px 40px 0 40px ;
+    padding: 0 0 0 10px;
 }
