@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Jost&family=Montserrat:wght@500&family=Oswald:wght@500;600&family=Red+Hat+Display:ital,wght@0,900;1,700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -9,12 +11,32 @@ body{
     left: 50%;
     transform: translate(-50%,-50%);
     background-color: hsl(225, 100%, 94%);
+    font-family: 'Fraunces', serif;
+
 }
 .card{
-    width: 30REM;
+    width: 30rem;
     background-color: white;
-    width: 28rem;
+    max-width:27rem;
+    border-radius: 10px;
+    height: auto;
+    text-align: center;
+    height: 600px;
 }
 .img img{
     width: 100%;
+    border-top-left-radius:10px ;
+    border-top-right-radius: 10px;
+}
+h1{
+    margin-top: 25px;
+    padding:0 20px 0 20px;
+    font-size: 1.7rem;
+}
+.para{
+    padding:0 80px 0 80px;
+    line-height: 25px;
+    margin-top: 15px;
+    font-family: 'Jost', sans-serif;
+    font-size: 1rem;
 }
